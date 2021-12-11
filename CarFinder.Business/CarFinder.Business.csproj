@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarFinder.Entities\CarFinder.Entities.csproj" />
+    <ProjectReference Include="..\CarFinderDataAccess\CarFinderDataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
